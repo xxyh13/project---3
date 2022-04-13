@@ -1,0 +1,196 @@
+/*code for all project pages*/
+header {
+  background-color: white;
+  padding: 2.5% 5% 2.5% 5%;
+  margin-left: 1px;
+  margin-bottom: 1em;
+  border-bottom: 1px;
+}
+
+body{
+  background-color: pink;
+}
+
+h1 {
+  font-family:'Assistant', sans-serif;
+  font-weight: bolder;
+  font-size: 5em;
+  color: black;
+}
+
+h2 {
+  font-family:'Assistant',cursive;
+  font-weight: bold;
+  font-size: 2.5em;
+  text-align: center;
+}
+
+p{
+  font-family: 'Assistant', serif;
+  font-weight: lighter;
+  font-size: 1em;
+}
+
+ul{
+  font-family: 'Assistant', serif;
+  font-size: 1em;
+  margin-bottom: 2em;
+}
+
+nav#nav li{
+  float: left;
+  width: 25%;
+  margin: .5% 4.1% .5% 4.1%;
+  text-align: center;
+}
+nav#nav ul li a {
+ text-decoration: none;
+ color: white;
+ padding: 1em;
+}
+nav#nav ul {
+ list-style-type: none;
+ padding: 0;
+ margin: 0;
+ overflow: hidden;
+ font-family: 'Assistant', sans-serif;
+ font-weight: 900;
+}
+
+nav#nav ul li a:hover {
+ border: 1px solid indigo;
+ color:white;
+}
+/*code for index.html only*/
+button#Linkedin-profile {
+  color: pink;
+  text-decoration: none;
+  padding: 1em;
+  border: 2px solid;
+  font-family: serif;
+  background-color: black;
+}
+
+h1#name{
+  text-align: right;
+}
+
+h2{
+  background-color:black;
+  color:pink;
+}
+
+h3{
+  text-align: center;
+}
+
+ol{
+  font-family: 'Assistant', sans-serif;
+  font-weight: 150;
+  font-size: 1em;
+  line-height: 1em;
+  margin-bottom: 1em;
+}
+
+/*code for pugs.html only*/
+#picture {
+  background-color: black;
+    border-radius: 6em;
+    border-radius: 4px;
+    padding: 5px;
+    width: 25%;
+
+}
+
+#picturenala {
+  background-color: black;
+    border-radius: 6em;
+    border-radius: 4px;
+    padding: 5px;
+    width: 25%;
+
+}
+
+iframe#video{
+  background-color: black;
+    border-radius: 6em;
+    border-radius: 4px;
+    padding: 5px;
+    width: 35%;
+}
+
+h1#namepugs{
+  text-align: right;
+}
+
+h2#orgin{
+  color: pink;
+  background-color:black;
+}
+
+h2#health{
+  color: pink;
+  background-color:black;
+}
+
+h2#nala{
+  color: pink;
+  background-color:black;
+}
+
+p#cappicture{
+  color:pink;
+  background-color: black;
+  text-align: center;
+}
+
+p#cappicturenala{
+  color:pink;
+  background-color: black;
+  text-align: center;
+}
+/*code for trip.html only*/
+h1#birthday{
+  text-align:right;
+}
+
+h2#place{
+    background-color:black;
+    color:pink;
+}
+
+h2#placehawaii{
+  background-color:black;
+  color: pink;
+}
+
+picture#picture{
+  background-color: white;
+    border-radius: 6em;
+    border-radius: 4px;
+    padding: 5px;
+    width: 35%;
+}
+
+picture#pictureha{
+  background-color: white;
+    border-radius: 6em;
+    border-radius: 4px;
+    padding: 5px;
+    width: 35%;
+}
+
+h2#place{
+  color: pink;
+  background-color: black;
+}
+
+p#cap{
+  background-color: white;
+  text-align: center;
+}
+
+p#capvegas{
+  background-color: white;
+  text-align: center;
+}
