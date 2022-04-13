@@ -10,8 +10,8 @@ function initMap (){
   });
 
   var marker = new google.maps.Marker({
- 		position: new google.maps.LatLng(41.902748, -87.720222),
- 		map: map,
+ position: new google.maps.LatLng(41.902748, -87.720222),
+ map: map,
   });
 
   google.maps.event.addListener(marker, 'mouseover', function() {
