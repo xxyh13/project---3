@@ -12,4 +12,6 @@ function initMap (){
  		map: map,
   });
 
-  
+  google.maps.event.addListener(marker, 'mouseover', function() {
+      infowindow.open(map, marker);
+    });
