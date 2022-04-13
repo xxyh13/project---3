@@ -37,18 +37,21 @@ ul{
   margin-bottom: 2em;
 }
 
-nav#nav li{
+nav#main-navigation li{
   float: left;
-  width: 25%;
-  margin: .5% 4.1% .5% 4.1%;
+  position: relative;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  left: 35%;
   text-align: center;
 }
-nav#nav ul li a {
+nav#main-navigation ul li a {
  text-decoration: none;
  color: white;
  padding: 1em;
 }
-nav#nav ul {
+nav#main-navigation ul {
  list-style-type: none;
  padding: 0;
  margin: 0;
@@ -57,7 +60,7 @@ nav#nav ul {
  font-weight: 900;
 }
 
-nav#nav ul li a:hover {
+nav#main-navigation ul li a:hover {
  border: 1px solid indigo;
  color:white;
 }
