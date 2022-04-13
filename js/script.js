@@ -1,3 +1,8 @@
+const chicagoCoords = [
+    { lat: 41.0793, lng: -85.1394 },
+    { lat: 43.5460, lng: -96.7313 },
+  ];
+
 function initMap (){
   map = new google.maps.Map(document.getElementById("map"), {
     zoom: 8,
