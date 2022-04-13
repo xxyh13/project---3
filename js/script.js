@@ -1,10 +1,7 @@
 function initMap (){
-  // The location of Humboldt Park
-  const Humboldt = {lat: 41.902748, lng: -87.720222};
-  // the map, centered at Humboldt
-  const map = new google.maps.Map(document.getElementByID("map"), {
-    zoom: 4
-    Center: Humboldt,
+  map = new google.maps.Map(document.getElementById("map"), {
+    zoom: 8,
+    Center: {lat: 41.902748, lng: -87.720222},
   });
 
   var marker = new google.maps.Marker({
