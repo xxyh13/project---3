@@ -197,3 +197,29 @@ p#capvegas{
   background-color: white;
   text-align: center;
 }
+
+@media (min-width: 600px){
+  h1{
+    font-family: cursive;
+    color: darkslategrey;
+    font-size: 5em;
+  }
+  button#linkedin-profile{
+    color: black;
+    font-family: monospace;
+    background-color: darkgray;
+  }
+}
+
+@media print {
+  h1{
+    font-family: monospace;
+    color: indianred;
+    font-size: 5em;
+  }
+  h2{
+    font-family: sans-serif;
+    color: indianred;
+    font-size: 3em;
+  }
+}
