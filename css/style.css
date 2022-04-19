@@ -7,6 +7,12 @@ header {
   border-bottom: 1px;
 }
 
+map#maps{
+  width: 600px;
+  height: 450px;
+  margin: 100px auto;
+}
+
 body{
   background-color: pink;
 }

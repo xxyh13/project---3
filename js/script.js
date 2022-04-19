@@ -1,15 +1,17 @@
-const chicagoCoords = [
-    { lat: 41.0793, lng: -85.1394 },
-    { lat: 43.5460, lng: -96.7313 },
-  ];
+  function initMap() {
+    map = new google.maps.Map(document.getElementById("map"), {
+      center: { lat: -34.397, lng: 150.644 },
+      zoom: 8,
+    });
+  }
 
-function initMap (){
-  map = new google.maps.Map(document.getElementById("map"), {
-    zoom: 8,
-    Center: {lat: 41.902748, lng: -87.720222},
-  });
-
-  var marker = new google.maps.Marker({
- position: new google.maps.LatLng(41.902748, -87.720222),
- map: map,
-  });
+  <style>
+    #map {
+      height: 100%;
+    }
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+  </style>
