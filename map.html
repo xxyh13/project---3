@@ -1,16 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
   <head>
+    <title>My Map</title>
     <meta name="viewport" content="initial-scale=1"/>
+    <meta charset="utf-8">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <script type="text/javascript" src="js/script.js"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200&display=swap" rel="stylesheet">
-    <meta charset="utf-8">
-    <title>My Map</title>
   </head>
 
   <body>
@@ -27,10 +24,16 @@
     <section id="map-information"
     <h3>Chicago, IL</h3>
     </section>
-    <div id="map">
-    </div>
-    <script
-     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCSumX1njkpLAsid3_haQd8YKQbybVvYgU&callback=initMap&v=weekly"
-    async></script>
+    <div id="map"></div>
+    <script>
+      var map;
+      function initMap() {
+        const chicago = { lat: 41.8781, lng: -87.6298 };
+        const map = new google.maps.Map(document.getElementById("map"), {
+          zoom: 6,
+        });
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCSumX1njkpLAsid3_haQd8YKQbybVvYgU&callback=initMap&v=weekly"
+    async defer></script>
   </body>
 </html>
