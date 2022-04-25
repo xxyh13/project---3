@@ -5,7 +5,7 @@ function initMap() {
       zoom: 8,
       });
 
-  const marker = new google.maps.Marker({
+const marker = new google.maps.Marker({
     position: chicago,
     map: map,
     icon: icon,
@@ -15,4 +15,4 @@ const chicagoCoords = [
     { lat: 41.0793, lng: -85.1394 },
     { lat: 43.5460, lng: -96.7313 },
       ];
-google.maps.event.addDomListener(window, 'load', initMap);
+google.maps.event.addDomListener(window, 'load', initMap);}
