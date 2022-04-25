@@ -7,15 +7,10 @@ header {
   border-bottom: 1px;
 }
 
-#map-information {
-  text-align: center;
-  padding: 0;
-  height: 100%;
-  margin: 0;
-}
-
 #map {
-  height: 100%;
+ width: 600px;
+  height: 550px;
+  margin: 100px auto;
 }
 
 body{

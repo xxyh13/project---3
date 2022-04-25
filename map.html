@@ -23,6 +23,15 @@
     </nav>
     <h2>Chicago, IL</h2>
     <div id="map"></div>
+    <script>
+      var map;
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: 41.834683, lng: -87.625958},
+          zoom: 16
+        });
+      }
+    </script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCSumX1njkpLAsid3_haQd8YKQbybVvYgU&callback=initMap&v=weekly"
     defer
     ></script>
