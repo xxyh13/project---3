@@ -9,6 +9,11 @@
     map: map,
     icon: icon,
   });
+  
+var icon = {
+  url: "https://media.istockphoto.com/photos/dramatic-sunset-downtown-chicago-picture-id1204331594?b=1&k=20&m=1204331594&s=170667a&w=0&h=DYmAnf_omKcY0we0Q_Vd5hrt0CEBCxTsIkhwKeC-TpE=",
+  scaledSize: new google.maps.Size(100,100),
+};
 
   const chicagoCoords = [
     { lat: 41.0793, lng: -85.1394 },
